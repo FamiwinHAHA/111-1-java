@@ -1,9 +1,16 @@
-public class Test{
+ㄍ  public class Test4{
     public static void main(String[] args){
-        System.out.println("args[0]");
-        printStr("Chris!");
-    }
-     public static void printStr(String[str] args){
-        System.out.println("My Name =  " + str);
+        int num1;
+		
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter first integer:")
+		num1 = input.nextInt();
+		
+		if (num1 >=60)
+			if (num1 >=70)
+				System.out.println("good");
+			else
+				System.out.println("bad");
+    
      }
 }
